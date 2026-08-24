@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- PyInstaller build artefacts (rebuild: pyinstaller --onefile --name project davebank_main.py) ---
+build/
+dist/
+*.spec
+
+# --- Report sources and the tooling that builds them: kept locally, not part
+#     of the software itself ---
+scripts/
+docs/
+report/REPORT.md
+report/REPORT.docx
+
+# --- Course material (lecture decks, assignment brief): not mine to publish ---
+slides/
+
+# --- Personal working notes ---
+CONTINUE_HERE.md
+
+# --- OS cruft ---
+Thumbs.db
+Desktop.ini
+.DS_Store
